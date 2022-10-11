@@ -2,12 +2,13 @@
 
 body{
     display: flex;
+    font-family: "Inter", sans-serif;
     padding: 2rem;
     place-content: center;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: url("Abstract_bg.png");
+    background: url("background.jpg");
     background-size: cover;
     animation: backgroundzoomanimate 20s forwards;
 }
@@ -35,9 +36,9 @@ img{
   transform: translateX(0);
 }
 .about-wrapper{
-   font-family: 'Inter Tight', sans-serif;
+   font-family: 'Inter', sans-serif;
    font-size: 1rem;
-   backdrop-filter: blur(15);
+   backdrop-filter: blur(15px);
    border-radius: 20px;
    box-shadow: 0 18px 200px -60px black;
    border: 2px solid;
